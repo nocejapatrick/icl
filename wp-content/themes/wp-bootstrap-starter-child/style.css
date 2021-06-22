@@ -1,0 +1,112 @@
+/*
+Theme Name: WP Bootstrap Starter Child
+Author: Afterimage Designs
+Description:  A child theme of WP Bootstrap Starter
+Template: wp-bootstrap-starter
+Text Domain: wp-bootstrap-starter-child
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Tested up to: 5.4
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+
+
+/* Main Color - #BB4430*/
+/* P Colors - #4E4E56 */
+/* Heading colors - #4E4E56 */
+/* Small Colors - #ABABB6 */
+
+#main-nav > #menu-main-menu a{
+    font-family: 'Lato';
+}
+
+#main-nav > #menu-main-menu li{
+    padding: 10px;
+}
+
+.navbar .nav-link{
+    text-shadow: none !important;
+    font-size: .9em;
+}
+
+li.current-menu-item{
+    color: #3399f3 !important;
+}
+
+
+#menu-item-36 a, .btn.btn-primary{
+    background-color: #BB4430 !important;
+    color: white;
+    font-weight: bold;
+    background-image: none !important; 
+    border-color: #007bff !important;
+    border: 1px solid transparent !important;
+    border-radius: .25rem !important;
+    padding: .4em 1em;
+    display: inline-block;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+#menu-item-36 a:hover , .btn.btn-primary:hover{
+    background-color: rgb(0, 98, 204);
+}
+
+#menu-item-36 .nav-link{
+    color: #fff;
+}
+
+#content.site-content{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+.info-footer-custom li{
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.info-footer-custom p{
+    color:#ababb6;
+    font-size: 16px;
+}
+
+.info-footer-custom li a{
+   color: #4E4E56;
+}
+
+.info-footer-custom ul{
+    padding:0px;
+}
+
+.info-footer-custom{
+    padding: 100px 0px;
+}
+
+
+.social-logo{
+    width: 35px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    background: #F4F4F6;
+    cursor: pointer;
+}
+.socials{
+    justify-content: flex-end;
+}
+
+
+
+@media (max-width:764px){
+    .socials{
+        margin-top: 15px;
+        justify-content: center;
+    }
+}
+
+/* 1000 max media */
+@media (min-width:1000px){
+    .col-md-offset-3{
+        margin-left: 16%;
+    }
+}
